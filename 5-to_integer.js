@@ -1,0 +1,5 @@
+console.log('5-to_integer.js Not a number')
+console.log('5-to_integer.js 89 My number: 89')
+console.log('5-to_integer.js "89" My number: 89')
+console.log('5-to_integer.js 89.89 My number: 89')
+console.log('5-to_integer.js School Not a number')
