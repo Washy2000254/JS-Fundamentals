@@ -1,5 +1,1 @@
-console.log('8-square.js Missing size')
-console.log('8-square.js School Missing size')
-console.log('8-square.js 2 XX XX')
-console.log('8-square.js 6 XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX XXXXXX')
-console.log('8-square.js -3')
+const arg = process.argv[2]; const size = parseInt(arg);if (isNaN(size)) {console.log('Missing size');} else {for (let i = 0; i < size; i++) {console.log('X'.repeat(size));}}
