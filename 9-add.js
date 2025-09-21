@@ -1,4 +1,1 @@
-console.log('9-add.js NaN')
-console.log('9-add.js NaN')
-console.log('9-add.js 1 7 8')
-console.log('9-add.js 13 89 102')
+ function add(a, b) {return a + b;}const a = parseInt(process.argv[2]);const b = parseInt(process.argv[3]);console.log(add(a, b));
