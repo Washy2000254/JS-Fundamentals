@@ -1,5 +1,2 @@
-console.log('5-to_integer.js Not a number')
-console.log('5-to_integer.js 89 My number: 89')
-console.log('5-to_integer.js "89" My number: 89')
-console.log('5-to_integer.js 89.89 My number: 89')
-console.log('5-to_integer.js School Not a number')
+const arg = process.argv[2]; const num = parseInt(arg);if (isNaN(num)) {console.log('Not a number');}else {console.log('My number: ' + num);}
+
