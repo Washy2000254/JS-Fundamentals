@@ -1,4 +1,1 @@
-console.log('7-multi_c.js 2 C is fun C is fun')
-console.log('7-multi_c.js 5 C is fun C is fun C is fun C is fun C is fun')
-console.log('7-multi_c.js Missing number of occurrences')
-console.log('7-multi_c.js -3')
+const arg = process.argv[2]; const x = parseInt(arg);if (isNaN(x)) {console.log('Missing number of occurrences');} else {for (let i = 0; i < x; i++) {console.log('C is fun');}}
